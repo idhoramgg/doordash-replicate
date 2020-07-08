@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid gray; */
+}
+.box {
+    align-self: center;
+}
+.box button {
+    padding: 5px 20px;
+    outline: transparent;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.btnSignIn {
+    background-color: transparent;
+    color: black;
+    margin-right: 10px;
+    border: 0px solid transparent;
+}
+.btnSignUp {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+}
+.main-top {
+    min-height: 50vh;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    background: url('https://images.unsplash.com/photo-1572656306390-40a9fc3899f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-top-box {
+    min-width: 460px;
+    height: 500px;
+    align-self: center;
+    margin-top: 30px;
+}
+.main-top-box h1 {
+    text-align: center;
+    font-size: 64px;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+
+}
+
+.form-top {
+    /* padding-left: 100px; */
+    text-align: center;
+}
+input {
+    border-radius: 20px;
+    width: 350px;
+    height: 40px;
+    padding: 20px;
+}
+
+
+
+
+/* Main mid */
+
+.main-mid {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+.main-mid-card {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(197, 190, 190, 0.9);
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .main-mid-card {
+        width: 400px;
+        height: 200px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+  }
+
+#image1 {
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) , url('../images/makanan.jpeg')center/cover no-repeat fixed;
+}
+.card-image {
+    width: 154px;
+    height: 154px;
+    display: flex;
+    text-align: center;
+    margin: 20px auto;
+}
+.card-text h3, p, span {
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+}
+.spanCard {
+    font-weight: bold;
+    padding-top: 5px;
+    color: red;
+    display: block;
+}
+
+
+/* content 1 */
+
+.content1 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    /* flex-wrap: wrap-reverse; */
+}
+.content2 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    /* flex-wrap: wrap-reverse; */
+}
+@media only screen and (max-width: 500px) {
+    .content1 {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        flex-wrap: wrap-reverse;
+    }
+    .content2 {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+  }
+.content-text {
+    width: 500px;
+    min-height: 300px;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+.content-text h2 {
+    font-size: 40px;
+}
+.content-text p {
+    font-size: 20px;
+}
+
+.content-text button {
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.content-image1 {
+    width: 700px;
+    height: 500px;
+    background: url('../images/gambar1.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.content-image2 {
+    width: 700px;
+    height: 500px;
+    background: url('../images/gambar2.jpeg');
+    background-position: center;
+    background-size: cover;
+}
