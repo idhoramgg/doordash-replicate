@@ -61,7 +61,6 @@
     color: white;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
-
 }
 
 .form-top {
@@ -104,9 +103,17 @@ input {
     .main-mid-card {
         width: 400px;
         height: 200px;
-        margin-top: 50px;
+        margin-top: 70px;
         display: flex;
         flex-direction: row;
+    }
+    .main-top-box h1 {
+        text-align: center;
+        padding: 50px;
+        font-size: 36px;
+        color: white;
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 2px;
     }
   }
 
